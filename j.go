@@ -7,7 +7,7 @@ import (
 
 func main() {
 	pages, _ := filepath.Glob("./templates/*.page.tmpl")
-	for _, page := range pages{
+	for _, page := range pages {
 		fmt.Println(filepath.Base(page))
 	}
 }
